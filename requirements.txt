@@ -5,7 +5,7 @@ python-dotenv==1.0.1
 praw==7.7.1
 
 # Kafka
-kafka-python==2.0.2
+kafka-python-ng==2.2.3
 
 # Sentiment Analysis
 vaderSentiment==3.3.2
