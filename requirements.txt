@@ -1,0 +1,22 @@
+# Secrets & Configuration
+python-dotenv==1.0.1
+
+# Reddit API
+praw==7.7.1
+
+# Kafka
+kafka-python==2.0.2
+
+# Sentiment Analysis
+vaderSentiment==3.3.2
+
+# Google Cloud / BigQuery
+google-cloud-bigquery==3.25.0
+db-dtypes==1.3.0
+pyarrow
+
+# Orchestration
+prefect==2.19.7
+
+# Testing
+pytest==8.3.2

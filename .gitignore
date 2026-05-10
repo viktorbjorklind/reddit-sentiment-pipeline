@@ -1,0 +1,39 @@
+# SECRETS - NEVER COMMIT THESE
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Google Cloud - NEVER commit these
+*-service-account.json
+*-key.json
+service_account*.json
+gcp_credentials*.json
+credentials*.json
+
+# Docker data volumes
+kafka-data/
+zookeeper-data/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs & data
+*.log
+logs/
+*.csv
+*.parquet
+data/
