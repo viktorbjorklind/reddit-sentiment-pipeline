@@ -1,22 +1,39 @@
-# Secrets & Configuration
-python-dotenv==1.0.1
+# SECRETS - NEVER COMMIT THESE
+.env
+*.env
+.env.*
+!.env.example
 
-# Hacker News API
-requests==2.32.3          # Simple HTTP calls to the HN Firebase API
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
 
-# Kafka
-kafka-python==2.0.2
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
 
-# Sentiment Analysis
-vaderSentiment==3.3.2
+# Google Cloud - NEVER commit these
+*-service-account.json
+*-key.json
+service_account*.json
+gcp_credentials*.json
+credentials*.json
 
-# Google Cloud / BigQuery
-google-cloud-bigquery==3.25.0
-db-dtypes==1.3.0
-pyarrow
+# Docker data volumes
+kafka-data/
+zookeeper-data/
 
-# Orchestration
-prefect==2.19.7
+# IDE
+.vscode/
+.idea/
 
-# Testing
-pytest==8.3.2
+# Logs & data
+*.log
+logs/
+*.csv
+*.parquet
+data/
